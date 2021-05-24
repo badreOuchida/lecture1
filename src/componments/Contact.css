@@ -1,0 +1,74 @@
+.contact-div{
+	width:85%;
+	background-color:#fff;
+	display:flex;
+	flex-direction:column;
+	padding:25px 40px;
+}
+
+.container-contact{
+	display:flex;
+	justify-content:center;
+}
+
+.contact-div .header div{
+	left:-1%;
+}
+.contact-div .words{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.contact-div .col-8-c{
+	width:70%;
+}
+.contact-div-2{
+	display:flex;
+}
+
+.contact-div .col-4-c{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.contact-div .col-4-c .contact{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	width:70%;
+	margin:0.5rem 0;
+}
+.contact-div .col-4-c .name{
+	font-size:20px;
+	font-weight:600;
+	margin:0.5rem 0;
+}
+
+
+@media(max-width: 937px){
+	.contact-div-2{
+		flex-direction:column;
+	}
+	.contact-div .col-8-c , .contact-div .words , .contact-div .header{
+		align-self:center;
+	}
+}
+
+@media(max-width: 572px){
+	.contact-div{
+		padding:0;
+	}
+}
+@media(max-width: 513px){
+	.contact-div-2 .col-8-c .name-email{
+		flex-direction:column;
+	}
+	.contact-div-2 .col-8-c .name-email .input-email{
+		margin-left:0;
+	}
+}
+
+
+

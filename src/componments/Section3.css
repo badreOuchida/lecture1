@@ -1,0 +1,180 @@
+.section3{
+	padding:60px 0px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.section3 .cards{
+	display:flex;
+}
+
+.section4{
+	padding:120px 0;
+	z-index:-2;
+	background-color:#fff;
+	width:100%;
+}
+
+.div{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.div h2{
+	font-weight:500;
+}
+.div .content{
+	width:260px;
+	line-height:1.5;
+	margin-left:1rem;
+}
+
+.all{
+	width:100%;
+	padding:0 7rem;
+	display:flex;
+	height:250px;
+	margin-top:1.5rem;
+	justify-content:space-between;
+}
+
+.yes{
+	align-self:flex-end;
+}
+
+@media(max-width: 1321px){
+	.div .content{
+		width:200px;
+	}
+}
+@media(max-width: 1143px){
+	.all{
+		display:flex;
+		flex-direction:column;
+
+	}
+	.section4{
+		height:900px;
+	}
+	.div .content{
+		margin:2rem 0;
+		width:250px;
+	}
+}
+
+@media(max-width: 904px){
+	.cards{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+}
+
+@media(max-width: 561px){
+	.all{
+		padding:0 2rem;
+	}
+
+}
+
+@media(max-width: 730px){
+	.div{
+		align-self:center;
+	}
+
+	.div .content{
+		font-size:15px;
+	}
+}
+
+@media(max-width: 403px){
+	.div{
+		justify-content:center;
+		text-align:center;
+	}
+	.section4{
+		height:1170px;
+	}
+}
+/*section5*/
+
+.section5{
+	height:80vh;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0 30%;
+	background-attachment: fixed;
+	z-index:-1;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.section5 .para{
+	position:relative;
+	background-color:#fff;
+	padding:30px 20px;
+	line-height:1.5;
+}
+.c{
+	margin:0 2rem;
+	width:350px;
+	display:flex;
+	flex-direction:column;
+}
+
+.triangle-down {
+	bottom:-24px;
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 25px solid #fff;
+}
+
+.section5 img{
+		height:55px;
+		width:55px;
+		margin:2rem 1rem;
+		border-radius:50%;
+}
+
+.names{
+	display:flex;
+	align-items:center;
+}
+
+.names h5{
+	font-weight:400;
+	font-size:18px;
+	color:#fff;
+}
+
+.names i{
+	font-size:12px;
+	color:#F17A39;
+}
+@media(max-width:947px){
+	.section5{
+		height:150vh;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+	}
+
+	.section5 .para{
+		margin:2rem 0;
+	}
+
+	..names{
+		display:flex;
+		align-items:flex-start;
+	}
+
+	.section5 img{
+		margin-top:0;
+	}
+}
